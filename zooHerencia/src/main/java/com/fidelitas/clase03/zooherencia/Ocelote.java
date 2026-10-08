@@ -10,5 +10,14 @@ package com.fidelitas.clase03.zooherencia;
  */
 public class Ocelote {
     private String nombre = "Don ocelote";
+
+    public String getNombre() {
+        return nombre;
+    }
+
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
+     
     
 }
